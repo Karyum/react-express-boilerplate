@@ -7,6 +7,13 @@
 
 #### Local instructions
 
+- *Well first clone this repo*
+
+- *Install packages*
+```
+npm i 
+```
+
 - *To bundle once*
 ```
 npm run bundle
