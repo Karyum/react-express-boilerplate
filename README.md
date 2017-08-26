@@ -23,3 +23,8 @@ npm run bundle
 ```
 npm run dev:start
 ```
+
+- To run tests 
+```
+npm test
+```
