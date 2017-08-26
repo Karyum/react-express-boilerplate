@@ -20,13 +20,17 @@ module.exports = {
         query: {
           presets: ['es2015', 'react']
         }
+      },
+      {
+        test: /\.css$/,
+        loaders: ['style-loader', 'css-loader']
       }
     ]
   },
   plugins: [
     new HtmlWebpackPlugin({
       filename: 'index.html',
-      template: './index.html'
+      template: './public/index.html'
     })
   ],
   resolve: {
