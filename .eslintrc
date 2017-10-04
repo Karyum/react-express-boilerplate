@@ -1,0 +1,18 @@
+{
+  parser: "babel-eslint",
+  "plugins":[
+    "react"
+  ],
+  "rules": {
+    "comma-dangle": ["error", "never"],
+    "no-unused-vars": 0
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended", "airbnb-base"],
+  "globals": {
+    "Style": true,
+    "document": true,
+    "describe": true,
+    "it":true,
+    "expect":true
+  }
+}
