@@ -5,7 +5,7 @@
   "main": "index.jsx",
   "scripts": {
     "bundle": "webpack --config webpack.config.js",
-    "dev:start": "webpack-dev-server --watch"
+    "dev:start": "webpack-dev-server"
   },
   "author": "Karyum",
   "license": "ISC",
