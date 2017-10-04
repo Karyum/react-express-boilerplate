@@ -11,7 +11,7 @@
 
 - *Install packages*
 ```
-npm i 
+npm i
 ```
 
 - *To bundle once*
@@ -22,9 +22,4 @@ npm run bundle
 - To run the dev server
 ```
 npm run dev:start
-```
-
-- To run tests 
-```
-npm test
 ```
