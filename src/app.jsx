@@ -1,5 +1,11 @@
 import React from 'react';
+import styled from 'styled-components';
 
-const App = () => <h1 className="app"> Hey I'm React's setup </h1>;
+const Main = styled.h1`
+  color: blue;
+  font-family: Helvetica;
+`;
+
+const App = () => <Main> Hey Im React setup </Main>;
 
 export default App;
