@@ -1,13 +1,8 @@
-/* eslint-disable import/no-extraneous-dependencies */
-
 const webpackBase = require('./webpack.base.config.js');
-const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
+const merge = require('webpack-merge');
 
-webpackBase.devtool = 'inline-source-map';
-webpackBase.devServer = { contentBase: './dist' };
-
-if (process.env.ANALYZE) {
-  webpackBase.plugins.push(new BundleAnalyzerPlugin());
-}
-
-module.exports = webpackBase;
+module.exports = merge(webpackBase, {
+  devtool: 'inline-source-map',
+  devServer: { contentBase: './dist' },
+  watch: true
+});
