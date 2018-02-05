@@ -6,7 +6,7 @@ module.exports = merge(webpackBase, {
   plugins: [
     new webpack.optimize.UglifyJsPlugin(),
     new webpack.DefinePlugin({
-      'process.env.NODE_ENV': JSON.stringify('production')
-    })
-  ]
+      'process.env.NODE_ENV': JSON.stringify('production'),
+    }),
+  ],
 });
