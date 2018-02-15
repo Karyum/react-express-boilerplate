@@ -8,8 +8,7 @@
     "dev:bundle": "webpack --config webpack.dev.config.js",
     "dev:start": "nodemon ./src/server/server.js",
     "create-karyum-app": "./scripts/cpid.sh",
-    "start":
-      "webpack --config webpack.prod.config.js && node ./src/server/server.js"
+    "start": "webpack --config webpack.prod.config.js && node ./src/server/server.js"
   },
   "author": "Karyum",
   "license": "ISC",
@@ -17,9 +16,7 @@
     "babel-eslint": "^8.0.3",
     "eslint": "^4.13.1",
     "eslint-config-airbnb": "^16.1.0",
-    "eslint-config-prettier": "^2.9.0",
     "eslint-config-react": "^1.1.7",
-    "eslint-plugin-env": "0.0.3",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-prettier": "^2.4.0",
@@ -28,10 +25,12 @@
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "body-parser": "^1.18.2",
     "compression": "^1.7.1",
+    "eslint-config-prettier": "^2.9.0",
     "express": "^4.16.2",
     "file-loader": "^1.1.6",
     "html-webpack-plugin": "^2.30.1",
