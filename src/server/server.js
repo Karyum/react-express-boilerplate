@@ -14,7 +14,7 @@ app.use(compression());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.use(controllers);
+app.use('/api', controllers);
 
 app.listen(process.env.PORT || 8080, () => {
   console.log('Magic shiz on 8080');
