@@ -8,6 +8,6 @@ const Main = styled.h1`
 
 // Dummy component
 
-const App = () => <Main> Hey Im React setup </Main>;
+const App = () => <Main> Change me </Main>;
 
 export default App;

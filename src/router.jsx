@@ -6,7 +6,7 @@ import FourOhFour from './components/404';
 
 // Add new routes for you components between the Switch element
 
-const ClientApp = () => (
+const Router = () => (
   <BrowserRouter>
     <Switch>
       <Route exact path="/" component={App} />
@@ -15,4 +15,4 @@ const ClientApp = () => (
   </BrowserRouter>
 );
 
-export default ClientApp;
+export default Router;
