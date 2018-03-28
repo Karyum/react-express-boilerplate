@@ -7,7 +7,6 @@
     "bundle": "webpack --config webpack.base.config.js --watch",
     "dev:bundle": "webpack --config webpack.dev.config.js",
     "dev:start": "nodemon ./src/server/server.js",
-    "create-karyum-app": "./scripts/cpid.sh",
     "start": "webpack --config webpack.prod.config.js && node ./src/server/server.js"
   },
   "author": "Karyum",
